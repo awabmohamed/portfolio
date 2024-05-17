@@ -23,7 +23,7 @@ const FooterSection = () => {
           <img src={gmail} alt="gmail" className="" />
         </a>
         <a
-          href="https://github.com/"
+          href="https://github.com/awabmohamed/"
           className="flex justify-center px-10 w-50 h-12"
         >
           <img src={github} alt="github" className="" />

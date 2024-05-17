@@ -13,13 +13,19 @@ import {
   mobile,
   mongodb,
   nodejs,
-  notescape,
   reactjs,
   responsive,
   tailwind,
   threejs,
-  todolist,
   web,
+  EAS,
+  ET,
+  FilmAppImg,
+  FP,
+  MPG,
+  PSC,
+  REA,
+  RPS,
 } from "../assets";
 
 export const navLinks = [
@@ -176,16 +182,24 @@ const testimonials = [
 
 const projects = [
   {
-    name: "To Do List",
+    name: "Film App",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio sequi magni libero modi dolorum reiciendis quas obcaecati sint sunt, dolor error non voluptatibus dolorem. Molestiae quam dolorem explicabo atque!",
+      "Explore the world of cinema effortlessly with this innovative web app! Simply search for any movie on the search bar and it will be displayed. Whether you're a film buff or just looking for your next movie night pick, This platform has you covered, delivering seamless access to endless entertainment",
     tags: [
+      {
+        name: "reactJs",
+        color: "red-text-gradient",
+      },
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
       {
         name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
@@ -193,53 +207,175 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: todolist,
-    source_code_link: "https://github.com/",
-    website_link: "https://example.com/",
+    image: FilmAppImg,
+    source_code_link: "https://github.com/awabmohamed/FilmApp",
+    website_link: "https://awabmohamed.github.io/FilmApp/",
   },
   {
-    name: "NoteScape",
+    name: "Rock, Paper, Scissors",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio sequi magni libero modi dolorum reiciendis quas obcaecati sint sunt, dolor error non voluptatibus dolorem. Molestiae quam dolorem explicabo atque!",
+      "captivating web app that brings the classic game of Rock, Paper, Scissors to life in a digital arena! Engage in timeless battles of strategy with the computer to test your luck. With sleek design and intuitive controls, this platform offers seamless gameplay for players of all ages.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "orange-text-gradient",
       },
       {
         name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "icp",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: notescape,
-    source_code_link: "https://github.com/",
-    website_link: "https://example.com/",
-  },
-  {
-    name: "To Do List",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio sequi magni libero modi dolorum reiciendis quas obcaecati sint sunt, dolor error non voluptatibus dolorem. Molestiae quam dolorem explicabo atque!",
-    tags: [
-      {
-        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: RPS,
+    source_code_link: "https://github.com/awabmohamed/rock-paper-scissors",
+    website_link: "https://awabmohamed.github.io/rock-paper-scissors/",
+  },
+  {
+    name: "Password Strength Checker",
+    description:
+      "Ensure the security of your digital world with our cutting-edge password strength checker web app! With intuitive interface and robust algorithms, it analyzes passwords instantly, providing comprehensive feedback on strength and vulnerability. Safeguard your accounts with confidence, knowing your passwords meet the highest standards of security.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: PSC,
+    source_code_link: "https://github.com/awabmohamed/PasswordStrengthChecker",
+    website_link: "https://awabmohamed.github.io/PasswordStrengthChecker/",
+  },
+  {
+    name: "Fifteen Puzzle",
+    description:
+      "Experience the classic challenge of the fifteen puzzle like never before with our captivating web app! Seamlessly slide tiles to solve the puzzle and reveal the hidden image or sequence. Whether you're a seasoned puzzler or a newcomer to the game, this intuitive interface and adjustable difficulty levels offer endless hours of brain-teasing entertainment.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: FP,
+    source_code_link: "https://github.com/awabmohamed/Fifteen-Puzzle",
+    website_link: "https://awabmohamed.github.io/Fifteen-Puzzle/",
+  },
+  {
+    name: "Match The Picture Game",
+    description:
+      "Test your observation and memory skills as you race against the clock to pair identical images from a grid of shuffled cards. With multiple difficulty levels, this addictive game promises endless fun for players of all ages.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: MPG,
+    source_code_link: "https://github.com/awabmohamed/PictureGame",
+    website_link: "https://awabmohamed.github.io/PictureGame/",
+  },
+  {
+    name: "Etch-a-Sketch",
+    description:
+      "Unleash your creativity with this digital interpretation of the beloved Etch-a-Sketch toy! Navigate the virtual knobs to draw intricate designs or simple doodles with ease.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: EAS,
+    source_code_link: "https://github.com/awabmohamed/etch-a-sketch",
+    website_link: "https://awabmohamed.github.io/etch-a-sketch/",
+  },
+  {
+    name: "Events and Tickets Inc",
+    description:
+      "one-stop destination for discovering and securing tickets to the hottest events in town! From concerts and sporting events to theater performances and festivals, browse a diverse range of experiences and easily purchase tickets with just a few clicks.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "nodeJs",
-        color: "pink-text-gradient",
+        name: "python",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "sqlite",
+        color: "yellow-text-gradient",
       },
     ],
-    image: todolist,
-    source_code_link: "https://github.com/",
-    website_link: "https://example.com/",
+    image: ET,
+    source_code_link: "https://github.com/CSC-4350-SP2024/Team5",
+    website_link: "https://github.com/CSC-4350-SP2024/Team5",
+  },
+  {
+    name: "Real Estate App",
+    description:
+      "Welcome to Big4-Estate, where property buyers and sellers unite on a single, user-friendly platform! Seamlessly connect with your ideal property match, whether you're in search of a dream home or looking to sell your current property. With intuitive features and comprehensive listings, Big4-Estate streamlines the real estate process, making finding or selling property easier and more efficient than ever before.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: REA,
+    source_code_link: "https://github.com/mkunjo/realEstate",
+    website_link: "https://github.com/mkunjo/realEstate",
   },
 ];
 

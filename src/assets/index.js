@@ -2,7 +2,7 @@ import backend from "./backend.png";
 import close from "./close.svg";
 import creator from "./creator.png";
 import github from "./github.png";
-import logo from "./logo.svg";
+import logo from "./logo.jpeg";
 import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -26,8 +26,14 @@ import frontend from "./company/frontend.png";
 import meta from "./company/meta.png";
 import mongo from "./company/mongo.png";
 
-import notescape from "./notescape.png";
-import todolist from "./todolist.png";
+import EAS from "./EAS.png";
+import ET from "./ET.png";
+import FilmAppImg from "./FilmAppImg.png";
+import FP from "./FP.png";
+import MPG from "./MPG.png";
+import PSC from "./PSC.png";
+import REA from "./REA.png";
+import RPS from "./RPS.png";
 
 import web3 from "./company/web.png";
 import gmail from "./gmail.png";
@@ -66,14 +72,20 @@ export {
   mongo,
   mongodb,
   nodejs,
-  notescape,
   reactjs,
   redux,
   responsive,
   tailwind,
   threejs,
-  todolist,
   typescript,
   web,
   web3,
+  EAS,
+  ET,
+  FilmAppImg,
+  FP,
+  MPG,
+  PSC,
+  REA,
+  RPS,
 };
